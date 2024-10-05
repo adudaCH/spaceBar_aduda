@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/* service-area */
+/* -------------------------------------------------------------------------- */
+@media (min-width: 800px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .single-service {
+        flex-basis: calc(50% - 15px);
+        /* 2 cards per row */
+    }
+}
+
+@media (max-width: 799px) {
+    .single-service {
+        flex-basis: 100%;
+        /* 1 card per row for smaller screens */
+    }
+}
+
+/* ------------------------------------------------------------- */
+/* about  */
+/* ------------------------------------------------------------- */
+@media (min-width:250px) and (max-width:550px) {
+    .about-area .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-left,
+    .about-right {
+        margin: 0;
+        width: 100%;
+    }
+
+    .about-right {
+        padding: 0;
+    }
+
+    .about-h1 {
+        font-size: 28px;
+    }
+.img-fluid{
+    width: 50%;
+    height: 50%;
+}
+    .about-paragraph {
+        font-size: 14px;
+        column-count: 3;
+    }
+}
+
+/* ------------------------------------------------------------- */
+/* footer */
+/* ------------------------------------------------------------- */
+
+@media (min-width:250px) and (max-width:550px){
+    .footer-area .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .single-footer-widget {
+        margin-bottom: 20px;
+    }
+
+    .single-footer-widget ul.instafeed {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single-footer-widget input[type="email"] {
+        width: 100%;
+        /* Full width on mobile */
+        margin-bottom: 10px;
+    }
+}

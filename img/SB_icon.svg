@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.69 175.69">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 92.11px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #8cc63f;
+        font-family: EthnocentricRg-Regular, Ethnocentric;
+      }
+
+      .cls-2 {
+        font-size: 94.04px;
+      }
+
+      .cls-3 {
+        fill: #666;
+      }
+    </style>
+  </defs>
+  <rect width="175.69" height="175.69" rx="20.99" ry="20.99"/>
+  <rect class="cls-3" x="1.39" y="1.39" width="172.91" height="172.91" rx="20.66" ry="20.66"/>
+  <rect x="4.92" y="4.35" width="165.85" height="166.99" rx="19.88" ry="19.88"/>
+  <g>
+    <text class="cls-2" transform="translate(5.88 85.59)"><tspan x="0" y="0">S</tspan></text>
+    <text class="cls-1" transform="translate(76.28 143.85)"><tspan x="0" y="0">B</tspan></text>
+  </g>
+</svg>
